@@ -22,4 +22,4 @@ This project is a simple e-commerce platform developed for educational purposes.
 - **jQuery**: For DOM manipulation.
 - **HTML/CSS**: For the basic user interface.
 
-#Reference from ChatGPT
+## Reference from ChatGPT
