@@ -1,22 +1,23 @@
 # E-Commerce Platform
 
 ## Overview
-This is a simple e-commerce platform created as part of a Web Programming midterm project. The project demonstrates object-oriented programming, generics, higher-order functions, asynchronous programming, and DOM manipulation using jQuery. It is built using TypeScript and jQuery, following best practices for clean code and error handling.
+This project is a simple e-commerce platform developed for educational purposes. It demonstrates object-oriented programming (OOP) concepts, generic classes, higher-order functions, asynchronous programming, and DOM manipulation using jQuery. The project is built with TypeScript and uses jQuery for UI interactions.
 
 ## Features
-- **Product Management**: Classes for creating and managing products, including discounted products.
-- **Inventory System**: Generic inventory class that can hold products and return details about them.
-- **Tax Calculation**: Higher-order function to apply tax to product prices.
-- **Asynchronous Data Fetching**: Simulates fetching product data from an external source.
-- **DOM Manipulation**: Uses jQuery to dynamically add products to an HTML table based on user input.
+- **Product Management**: Create and manage products with price and category.
+- **Discounts**: Implement discount logic and calculate final prices for products.
+- **Inventory System**: Generic inventory class that stores and manages products.
+- **Price Utils**: Functions to apply tax or price multipliers.
+- **Asynchronous Operations**: Simulates fetching product data from an external source.
+- **User Interface**: A simple form to add products and display them in a table.
 
-## Instructions
+## How to Run
 1. Clone the repository.
-2. Run `npm install` to install any dependencies.
-3. Use `tsc` to compile TypeScript files in the `src` directory.
-4. Open `public/index.html` in a browser to test the DOM manipulation features.
+2. Run `npm install` to install dependencies.
+3. Use `tsc` to compile the TypeScript files located in `src/`.
+4. Open `public/index.html` in your browser to interact with the application.
 
 ## Technologies Used
-- **TypeScript**: For strong typing and class-based OOP.
-- **jQuery**: For simple DOM manipulation.
-- **HTML/CSS**: For frontend structure and design.
+- **TypeScript**: For type-safety and object-oriented programming.
+- **jQuery**: For DOM manipulation.
+- **HTML/CSS**: For the basic user interface.
