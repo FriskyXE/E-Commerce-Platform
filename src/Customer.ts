@@ -12,9 +12,11 @@ export interface Customer {
 }
 
 export function getCustomerInfo(customer: Customer): void {
-    const totalOrders = customer.orders.length;
-    console.log(`Customer: ${customer.name}, Email: ${customer.email}, Total Orders: ${totalOrders}`);
-    customer.orders.forEach(order => {
-        console.log(`Product: ${order.product.name}, Quantity: ${order.quantity}`);
+    console.log(`Customer Name: ${customer.name}`);
+    console.log(`Customer Email: ${customer.email}`);
+    console.log(`Total Orders: ${customer.orders.length}`);
+
+    customer.orders.forEach((order, index) => {
+        console.log(`${index + 1}. ${order.product.name}, Quantity: ${order.quantity}`);
     });
 }
