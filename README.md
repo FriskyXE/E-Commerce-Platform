@@ -22,4 +22,32 @@ This project is a simple e-commerce platform developed for educational purposes.
 - **jQuery**: For DOM manipulation.
 - **HTML/CSS**: For the basic user interface.
 
-## Content referenced from ChatGPT
+## References
+
+1. **TypeScript Documentation**  
+   Comprehensive guide and reference for TypeScript usage, including data types, classes, and OOP features.  
+   [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+2. **Object-Oriented Programming Concepts**  
+   Overview of basic OOP concepts, including classes, objects, inheritance, and polymorphism.  
+   [W3Schools - Object Oriented Programming](https://www.w3schools.com/js/js_object_oriented.asp)
+
+3. **JavaScript Array Methods**  
+   Information on the use of array methods such as `map`, `filter`, and `reduce` in JavaScript.  
+   [MDN Web Docs - Array.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+4. **Higher-Order Functions in JavaScript**  
+   Explanation of higher-order functions and how to create user-friendly functions.  
+   [MDN Web Docs - Higher-Order Functions](https://developer.mozilla.org/en-US/docs/Glossary/Higher-order_function)
+
+5. **jQuery Documentation**  
+   Official jQuery site with information on using jQuery for DOM manipulation, event handling, and AJAX.  
+   [jQuery API Documentation](https://api.jquery.com/)
+
+6. **Asynchronous JavaScript**  
+   Overview of asynchronous programming in JavaScript, particularly the use of async/await.  
+   [MDN Web Docs - Async functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+
+7. **JSON Handling in JavaScript**  
+   Guide on how to handle JSON in JavaScript, including parsing and stringifying.  
+   [MDN Web Docs - JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
