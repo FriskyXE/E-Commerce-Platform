@@ -30,7 +30,7 @@ This project is a simple e-commerce platform developed for educational purposes.
 
 2. **Object-Oriented Programming Concepts**  
    Overview of basic OOP concepts, including classes, objects, inheritance, and polymorphism.  
-   [W3Schools - Object Oriented Programming](https://www.w3schools.com/js/js_object_oriented.asp)
+   [MDN Web Docs - Object Oriented Programming](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming)
 
 3. **JavaScript Array Methods**  
    Information on the use of array methods such as `map`, `filter`, and `reduce` in JavaScript.  
