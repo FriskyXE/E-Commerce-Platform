@@ -7,11 +7,11 @@ interface ProductData {
 export async function fetchProductData(): Promise<ProductData> {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            const success = Math.random() > 0.2; // Simulate 80% success rate
+            const success = Math.random() > 0.2;
             if (success) {
-                resolve({ name: 'Monitor', price: 300, category: 'Electronics' });
+                resolve({ name: 'Monitor', price: 299.99, category: 'Electronics' });
             } else {
-                reject('Failed to fetch product data');
+                reject('Error: Failed to fetch product data');
             }
         }, 1000);
     });
@@ -20,7 +20,7 @@ export async function fetchProductData(): Promise<ProductData> {
 export async function displayProductData(): Promise<void> {
     try {
         const data = await fetchProductData();
-        console.log(data);
+        console.log('Fetched product data:', data);
     } catch (error) {
         console.error(error);
     }
