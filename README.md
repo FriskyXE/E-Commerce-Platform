@@ -21,3 +21,5 @@ This project is a simple e-commerce platform developed for educational purposes.
 - **TypeScript**: For type-safety and object-oriented programming.
 - **jQuery**: For DOM manipulation.
 - **HTML/CSS**: For the basic user interface.
+
+# Reference from ChatGPT
