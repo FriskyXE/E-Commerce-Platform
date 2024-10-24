@@ -38,7 +38,7 @@ This project is a simple e-commerce platform developed for educational purposes.
 
 4. **Higher-Order Functions in JavaScript**  
    Explanation of higher-order functions and how to create user-friendly functions.  
-   [MDN Web Docs - Higher-Order Functions](https://developer.mozilla.org/en-US/docs/Glossary/Higher-order_function)
+   [Freecodecamp - Higher-Order Functions](https://www.freecodecamp.org/news/higher-order-functions-in-javascript-explained)
 
 5. **jQuery Documentation**  
    Official jQuery site with information on using jQuery for DOM manipulation, event handling, and AJAX.  
