@@ -2,37 +2,26 @@ export class Product {
     private static productCount: number = 0;
 
     constructor(
-        private _name: string,
-        private _price: number,
-        private _category: string
+        private name: string,
+        private price: number,
+        private category: string
     ) {
         Product.productCount++;
     }
 
-    get name(): string {
-        return this._name;
-    }
-
-    get price(): number {
-        return this._price;
-    }
-
-    get category(): string {
-        return this._category;
-    }
-
-    updatePrice(newPrice: number): void {
-        if (newPrice < 0) {
-            throw new Error("Price cannot be negative");
+    public updatePrice(newPrice: number): void {
+        if (newPrice <= 0) {
+            console.error("Price must be greater than 0");
+            return;
         }
-        this._price = newPrice;
+        this.price = newPrice;
     }
 
-    getProductInfo(): string {
-        return `Product: ${this._name}, Price: ${this._price.toFixed(2)}, Category: ${this._category}`;
+    public getProductInfo(): string {
+        return `Product: ${this.name}, Price: $${this.price.toFixed(2)}, Category: ${this.category}`;
     }
 
-    static totalProducts(): number {
+    public static totalProducts(): number {
         return Product.productCount;
     }
 }
